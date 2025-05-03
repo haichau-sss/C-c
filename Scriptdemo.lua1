@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=83190276951914",
+       Image = "http://www.roblox.com/asset/?id=103145721840374",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -30,9 +30,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "CẶC"})
+     local Tab1o = MakeTab({Name = "CẶ
 
-     local Tab2o = MakeTab({Name = "bú cặc"})
 ------- BUTTON
     
     AddButton(Tab2o, {
@@ -46,5 +45,3 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
   end
   })
-  
-      AddButton(Tab1o, {     Name = "Redz Hub",    Callback = function()  local Settings = {  JoinTeam = "Pirates"; -- Pirates/Marines  Translator = true; -- true/false}loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)  end  })
